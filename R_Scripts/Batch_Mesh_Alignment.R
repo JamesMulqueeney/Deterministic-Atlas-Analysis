@@ -4,7 +4,7 @@
 
 # Author: James M. Mulqueeney 
 
-# Date Last Modified: 06/02/2024 
+# Date Last Modified: 13/03/2024
 
 # Single Mesh Alignment 
 
@@ -18,7 +18,7 @@ library(Rvcg)
 #########################################################################################
 
 # Define the directory containing the .ply files
-directory <- "E:/CTData/James Mulqueeney/Mammalian Data/Placental Mammalian Data/Original Files/ASCII Mesh Files/"
+directory <- "path/to/input//ASCII Mesh Files/"
 
 # Get a list of all .ply files in the directory
 ply_files <- list.files(directory, pattern = "\\.ply$", full.names = TRUE)
@@ -60,7 +60,7 @@ for (i in seq_along(mesh_list)) {
 }
 
 # Define a directory to save the aligned meshes
-output_directory <- "E:/CTData/James Mulqueeney/Mammalian Data/Placental Mammalian Data/Original Files/Aligned Mesh Files/ASCII"
+output_directory <- "path/to/input//Aligned Mesh Files/ASCII"
 
 # Set the working directory to the output directory
 setwd(output_directory)
