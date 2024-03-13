@@ -4,7 +4,7 @@
 
 # Author: James M. Mulqueeney 
 
-# Date Last Modified: 06/02/2024 
+# Date Last Modified: 13/03/2024 
 
 # Aligned Only Comparison with Manual Landmarking Data 
 
@@ -24,10 +24,10 @@ library(cowplot)
 # Read in shape data & species data 
 
 # Shape data (Landmark Data)
-shape.data <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Manual Landmarking/Data/shape.data.322.csv")
+shape.data <- read.csv("path/to/input//shape.data.322.csv")
 
 # Species data (Details of Taxonomy etc.)
-species.data <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Manual Landmarking/Data/full_species_data.csv")
+species.data <- read.csv("path/to/input/full_species_data.csv")
 
 #########################################################################################
 
@@ -45,7 +45,7 @@ pcscores<-PCA1$x
 pcscores<-cbind(species.data,pcscores) 
 
 # Assign colours 
-colortable <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Coding Files/new_order_colors2.csv")
+colortable <- read.csv("path/to/input/new_order_colors2.csv")
 names(colortable$Order_colour)<-colortable$Order
 #names(colortable$order_color3) <- colortable$Order
 
@@ -147,7 +147,7 @@ ggsave(g2_file_path, plot = g2, device = "png", width = 10, height = 6, units = 
 #######################################
 
 # Read in the data 
-Kernel_40.0 <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Landmark Aligned/Kernel 40.0/kpca.csv")
+Kernel_40.0 <- read.csv("path/to/input/Landmark Aligned/Kernel 40.0/kpca.csv")
 
 ############
 # PC1 & PC2
@@ -224,7 +224,7 @@ ggsave(g4_file_path, plot = g4, device = "png", width = 10, height = 6, units = 
 #######################################
 
 # Read in the data 
-Kernel_20.0 <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Landmark Aligned/Kernel 20.0/kpca.csv")
+Kernel_20.0 <- read.csv("path/to/input/Landmark Aligned/Kernel 20.0/kpca.csv")
 
 ############
 # PC1 & PC2
@@ -301,7 +301,7 @@ ggsave(g6_file_path, plot = g6, device = "png", width = 10, height = 6, units = 
 #######################################
 
 # Read in the data 
-Kernel_10.0 <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Landmark Aligned/Kernel 10.0/kpca.csv")
+Kernel_10.0 <- read.csv("path/to/input/Landmark Aligned/Kernel 10.0/kpca.csv")
 
 ############
 # PC1 & PC2
