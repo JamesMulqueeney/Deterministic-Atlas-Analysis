@@ -18,7 +18,7 @@ library(Rvcg)
 #########################################################################################
 
 # Define the directory containing the .ply files
-directory <- "path/to/input//ASCII Mesh Files/"
+directory <- "path/to/input/ASCII Mesh Files/"
 
 # Get a list of all .ply files in the directory
 ply_files <- list.files(directory, pattern = "\\.ply$", full.names = TRUE)
