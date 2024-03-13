@@ -18,7 +18,7 @@ library(Rvcg)
 #########################################################################################
 
 # Read in the landmark data 
-data <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Manual Landmarking/Data/Mirrored.322.csv", header = TRUE)
+data <- read.csv("path/to/input/Mirrored.322.csv", header = TRUE)
 
 # Read in mesh data 
 mesh1 <- read.ply("E:/CTData/James Mulqueeney/Mammalian Data/Placental Mammalian Data/Original Files/ASCII Mesh Files/Acinonyx_jubatus.ply",  ShowSpecimen= FALSE)
