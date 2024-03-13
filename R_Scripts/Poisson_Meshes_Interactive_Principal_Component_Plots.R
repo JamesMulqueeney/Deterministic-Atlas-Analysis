@@ -4,7 +4,7 @@
 
 # Author: James M. Mulqueeney 
 
-# Date Last Modified: 06/02/2024 
+# Date Last Modified: 13/03/2024 
 
 # Aligned Only Comparison with Manual Landmarking Data 
 
@@ -20,7 +20,7 @@ library(geomorph)
 #########################################################################################
 
 # Read in colour/ shape of plot data
-colortable <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Coding Files/new_order_colors2.csv")
+colortable <- read.csv("path/to/input/new_order_colors2.csv")
 names(colortable$Order_colour)<-colortable$Order
 
 # Re-order the Orders (Needs working on)
@@ -31,7 +31,7 @@ phyloseq <- c("Zalambdalestidae", "Cimolesta", "Leptictida", "Cingulata", "Pilos
 #######################################
 
 # Read in the data 
-Kernel_40.0 <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Poisson Meshes/Kernel 40.0/kpca.csv")
+Kernel_40.0 <- read.csv("path/to/input/Poisson Meshes/Kernel 40.0/kpca.csv")
 
 # Plot in 2D 
 
@@ -75,7 +75,7 @@ plot3
 #######################################
 
 # Read in the data 
-Kernel_20.0 <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Poisson Meshes/Kernel 20.0/kpca.csv")
+Kernel_20.0 <- read.csv("path/to/input/Poisson Meshes/Kernel 20.0/kpca.csv")
 
 # Plot in 2D 
 
@@ -119,7 +119,7 @@ plot6
 #######################################
 
 # Read in the data 
-Kernel_10.0 <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Poisson Meshes/Kernel 10.0/kpca.csv")
+Kernel_10.0 <- read.csv("path/to/input/Poisson Meshes/Kernel 10.0/kpca.csv")
 
 # Plot in 2D 
 
