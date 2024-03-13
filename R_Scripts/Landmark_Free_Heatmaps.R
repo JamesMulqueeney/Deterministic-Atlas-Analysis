@@ -18,7 +18,7 @@ library(dplyr)
 # Use atlas mesh 
 
 # Load in the Original Binturong Specimen 
-mesh2 <- read.ply("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Meshes/Aligned Meshes/Processed Meshes/ASCII/Cacajao_calvus.ply")
+mesh2 <- read.ply("E:path/to/input/Aligned Meshes/Processed Meshes/ASCII/Cacajao_calvus.ply")
 
 # Scale to the same size as the manual landmark data 
 mesh2.scaled <- scalemesh(mesh2, size=0.00044342731, center="none")
@@ -27,7 +27,7 @@ mesh2.scaled <- scalemesh(mesh2, size=0.00044342731, center="none")
 # Kernel 40.00mm (45 Control Points)
 
 # Load in the atlas 
-atlas_40.0 <- read.ply("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Poisson Meshes/Kernel 40.0/DeterministicAtlas__EstimatedParameters__Template_cranium.ply")
+atlas_40.0 <- read.ply("path/to/input/Poisson Meshes/Kernel 40.0/DeterministicAtlas__EstimatedParameters__Template_cranium.ply")
 
 # Scale to the same size as the manual landmark data 
 atlas_40.0.scaled <- scalemesh(atlas_40.0, size=0.00044342731, center="none")
@@ -43,7 +43,7 @@ MD_40 <-  meshDist(mesh2.scaled, atlas_40.0.scaled, from =-0.02, to=0.01)
 # Kernel 20.00mm (45 Control Points)
 
 # Load in the atlas 
-atlas_20.0 <- read.ply("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Poisson Meshes/Kernel 20.0/DeterministicAtlas__EstimatedParameters__Template_cranium.ply")
+atlas_20.0 <- read.ply("path/to/input/Poisson Meshes/Kernel 20.0/DeterministicAtlas__EstimatedParameters__Template_cranium.ply")
 
 # Scale to the same size as the manual landmark data 
 atlas_20.0.scaled <- scalemesh(atlas_20.0, size=0.00044342731, center="none")
@@ -59,7 +59,7 @@ MD_20 <-  meshDist(mesh2.scaled, atlas_20.0.scaled, from =-0.02, to=0.01)
 # Kernel 10.00mm (45 Control Points)
 
 # Load in the atlas 
-atlas_10.0 <- read.ply("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Poisson Meshes/Kernel 10.0/DeterministicAtlas__EstimatedParameters__Template_cranium.ply")
+atlas_10.0 <- read.ply("path/to/input/Kernel 10.0/DeterministicAtlas__EstimatedParameters__Template_cranium.ply")
 
 # Scale to the same size as the manual landmark data 
 atlas_10.0.scaled <- scalemesh(atlas_10.0, size=0.00044342731, center="none")
