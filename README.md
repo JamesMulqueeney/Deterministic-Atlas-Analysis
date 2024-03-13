@@ -3,14 +3,14 @@
 Code linked to the paper: Comparing landmark-free and manual landmarking methods for macroevolutionary studies using the mammalian crania. DOI: 
 
 # Data 
-All data stored here is used in the results section of the paper. These data can be analysed/ visualised using the R scripts wihin the 'R Scripts' Folder. kPCA and eigenvalues from all analyses are stored as followed:
+All data stored here is used in the results section of the paper. These data can be analysed/ visualised using the R scripts within the 'R Scripts' Folder. kPCA and eigenvalues from all analyses are stored as followed:
 
 Aligned-Only: Kernel 40.0, Kernel 20.0, Kernel 10.0 
 
 Poisson_Meshes: Kernel 40.0, Kernel 20.0, Kernel 10.0 
 
 # R Scripts 
-All the R scripts here are used for data processing, visualisation and statisitcal analysis of the data. These are as follows: 
+All the R scripts here are used for data processing, visualisation and statistical analysis of the data. These are as follows: 
 
 1.  `Aligned_Only_Interactive_Principal_Component_Plots.R`
 2.  `Aligned_Only_Principal_Component_Comparison.R`
@@ -26,7 +26,7 @@ All the R scripts here are used for data processing, visualisation and statisitc
 12. `Single_Mesh_Alignment.R`
 
 # Python Scripts 
-Python scripts used in the analysis, mainly in the processing and generating data. These are as follows: 
+Python scripts are used in the analysis, mainly in the processing and generating of data. These are as follows: 
 
 1. `Batch_Mesh_to_ASCII.py`: Used to batch convert binary .ply meshes into ASCII format. 
 2. `Display_Control_Points_Final.py`: Used to display control points on atlas 
