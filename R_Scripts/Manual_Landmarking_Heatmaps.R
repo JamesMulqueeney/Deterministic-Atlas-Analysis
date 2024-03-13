@@ -18,7 +18,7 @@ library(dplyr)
 #########################################################################################
 
 # Load in the Atlas Mesh 
-mesh1 <- read.ply("E:/CTData/James Mulqueeney/Mammalian Data/Placental Mammalian Data/Original Files/ASCII Mesh Files/Decimated/Cacajao_calvus.ply")
+mesh1 <- read.ply("path/to/input/Original Files/ASCII Mesh Files/Decimated/Cacajao_calvus.ply")
 
 #########################################################################################
 
@@ -66,7 +66,7 @@ deformGrid3d(shape_concatenated_array [,,36],shape_average_matrix_slice,ngrid = 
 # Repeat for the mirrored data (minus the mirroring)
 
 # Read in original positions 
-mirrored_data <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Manual Landmarking/Data/Mirrored.322_Reduced.csv", header = TRUE)
+mirrored_data <- read.csv("path/to/input/Mirrored.322_Reduced.csv", header = TRUE)
 
 # Extract x,y,z co-ordinates in 3D
 x_values <- as.matrix(mirrored_data[, grep("\\.X", colnames(mirrored_data))])
