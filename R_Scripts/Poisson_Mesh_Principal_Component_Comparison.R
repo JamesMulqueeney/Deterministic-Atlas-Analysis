@@ -25,10 +25,10 @@ library(geomorph)
 # Read in shape data & species data 
 
 # Shape data (Landmark Data)
-shape.data <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Manual Landmarking/Data/shape.data.322.csv")
+shape.data <- read.csv("path/to/input/shape.data.322.csv")
 
 # Species data (Details of Taxonomy etc.)
-species.data <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Manual Landmarking/Data/full_species_data.csv")
+species.data <- read.csv("path/to/input/full_species_data.csv")
 
 #########################################################################################
 
@@ -148,7 +148,7 @@ ggsave(g2_file_path, plot = g2, device = "png", width = 10, height = 6, units = 
 #######################################
 
 # Read in the data 
-Kernel_40.0 <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Poisson Meshes/Kernel 40.0/kpca.csv")
+Kernel_40.0 <- read.csv("path/to/input//Poisson Meshes/Kernel 40.0/kpca.csv")
 
 ############
 # PC1 & PC2
@@ -225,7 +225,7 @@ ggsave(g4_file_path, plot = g4, device = "png", width = 10, height = 6, units = 
 #######################################
 
 # Read in the data 
-Kernel_20.0 <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Poisson Meshes/Kernel 20.0/kpca.csv")
+Kernel_20.0 <- read.csv("path/to/input/Poisson Meshes/Kernel 20.0/kpca.csv")
 
 ############
 # PC1 & PC2
@@ -302,7 +302,7 @@ ggsave(g6_file_path, plot = g6, device = "png", width = 10, height = 6, units = 
 #######################################
 
 # Read in the data 
-Kernel_10.0 <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Poisson Meshes/Kernel 10.0/kpca.csv")
+Kernel_10.0 <- read.csv("path/to/input/Poisson Meshes/Kernel 10.0/kpca.csv")
 
 ############
 # PC1 & PC2
