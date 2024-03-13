@@ -4,7 +4,7 @@
 
 # Author: James M. Mulqueeney 
 
-# Date Last Modified: 06/02/2024 
+# Date Last Modified: 13/03/2024
 
 # Aligned Only Meshes
 
@@ -30,10 +30,10 @@ library(geomorph)
 # Manual landmarking data 
 
 # Shape data (Landmark Data)
-shape.data <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Manual Landmarking/Data/shape.data.322.csv")
+shape.data <- read.csv("path/to/input//shape.data.322.csv")
 
 # Species data (Details of Taxonomy etc.)
-species.data <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Manual Landmarking/Data/full_species_data.csv")
+species.data <- read.csv("path/to/input/full_species_data.csv")
 
 # Perform PCA on shape data 
 PCA1 <- gm.prcomp(shape.data[,-1])
@@ -53,13 +53,13 @@ pcscores<-cbind(species.data,pcscores)
 # Landmark-free data 
 
 # Kernel 40.0 (Control points = 45 )
-Kernel_40.0 <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Landmark Aligned/Kernel 40.0/kpca.csv")
+Kernel_40.0 <- read.csv("path/to/input/Landmark Aligned/Kernel 40.0/kpca.csv")
 
 # Kernel 20.0 (Control points = 270 )
-Kernel_20.0 <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Landmark Aligned/Kernel 20.0/kpca.csv")
+Kernel_20.0 <- read.csv("path/to/input/Landmark Aligned/Kernel 20.0/kpca.csv")
 
 # Kernel 10.0 (Control points = 1782 )
-Kernel_10.0 <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Landmark Aligned/Kernel 10.0/kpca.csv")
+Kernel_10.0 <- read.csv("path/to/input/Landmark Aligned/Kernel 10.0/kpca.csv")
 
 #########################################################################################
 
