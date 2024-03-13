@@ -6,6 +6,7 @@ Code linked to the paper: Comparing landmark-free and manual landmarking methods
 All data stored here is used in the results section of the paper. These data can be analysed/ visualised using the R scripts wihin the 'R Scripts' Folder. kPCA and eigenvalues from all analyses are stored as followed:
 
 Aligned-Only : Kernel 40.0, Kernel 20.0, Kernel 10.0 
+
 Poisson_Meshes: Kernel 40.0, Kernel 20.0, Kernel 10.0 
 
 # R Scripts 
