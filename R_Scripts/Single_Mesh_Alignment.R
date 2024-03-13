@@ -80,7 +80,7 @@ rotmesh3 <-rotmesh.onto(mesh3,specimen3, specimen1, scale=TRUE)
 shade3d(rotmesh3$mesh, col=4, specular=1)
 
 # Define the file name for the output mesh
-output_file <- "E:/CTData/James Mulqueeney/Mammalian Data/Placental Mammalian Data/Original Files/Aligned Meshes/rotmesh3.ply"
+output_file <- "path/to/output/rotmesh3.ply"
 
 # Export the mesh in ASCII format
 vcgPlyWrite(rotmesh3$mesh, output_file)
