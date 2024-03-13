@@ -25,10 +25,10 @@ library(geomorph)
 # Read in shape data & species data 
 
 # Shape data (Landmark Data)
-shape.data <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Manual Landmarking/Data/shape.data.322.csv")
+shape.data <- read.csv("path/to/input//shape.data.322.csv")
 
 # Species data (Details of Taxonomy etc.)
-species.data <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Manual Landmarking/Data/full_species_data.csv")
+species.data <- read.csv("path/to/input/full_species_data.csv")
 
 #########################################################################################
 
@@ -46,7 +46,7 @@ pcscores<-PCA1$x
 pcscores<-cbind(species.data,pcscores) 
 
 # Assign colours 
-colortable <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Coding Files/new_order_colors2.csv")
+colortable <- read.csv("path/to/input/new_order_colors2.csv")
 names(colortable$Order_colour)<-colortable$Order
 #names(colortable$order_color3) <- colortable$Order
 
