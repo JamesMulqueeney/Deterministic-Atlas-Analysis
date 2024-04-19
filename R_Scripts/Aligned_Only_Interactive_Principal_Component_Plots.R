@@ -30,7 +30,7 @@ phyloseq <- c("Zalambdalestidae", "Cimolesta", "Leptictida", "Cingulata", "Pilos
 #######################################
 
 # Read in the data 
-Kernel_40.0 <- read.csv("path/to/input/Landmark Aligned/Kernel 40.0/kpca.csv")
+Kernel_40.0 <- read.csv("path/to/input/Data_S5-Aligned_Only_k40_kpca.csv")
 
 # Plot in 2D 
 
@@ -73,7 +73,7 @@ plot3
 #######################################
 
 # Read in the data 
-Kernel_20.0 <- read.csv("path/to/input/Landmark Aligned/Kernel 20.0/kpca.csv")
+Kernel_20.0 <- read.csv("path/to/input/Data_S6-Aligned_Only_k20_kpca.csv")
 
 # Plot in 2D 
 
@@ -116,7 +116,7 @@ plot6
 #######################################
 
 # Read in the data 
-Kernel_10.0 <- read.csv("path/to/input/Landmark Aligned/Kernel 10.0/kpca.csv")
+Kernel_10.0 <- read.csv("path/to/input/Data_S7-Aligned_Only_k10_kpca.csv")
 
 # Plot in 2D 
 
