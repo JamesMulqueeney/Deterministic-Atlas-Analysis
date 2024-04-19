@@ -34,10 +34,10 @@ library(cowplot)
 # Read in shape data & species data 
 
 # Shape data (Landmark Data)
-shape.data <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Manual Landmarking/Data/shape.data.322.csv")
+shape.data <- read.csv("path/to/input/Data_S3-Shape_Data_322.csv")
 
 # Species data (Details of Taxonomy etc.)
-species.data <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Manual Landmarking/Data/full_species_data.csv")
+species.data <- read.csv("path/to/input/Data_S1-Specimen_Details.csv")
 
 #########################################################################################
 
@@ -55,7 +55,7 @@ pcscores<-PCA1$x
 pcscores<-cbind(species.data,pcscores) 
 
 # Assign colours 
-colortable <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Coding Files/new_order_colors2.csv")
+colortable <- read.csv("path/to/input/Data_S17-New_Order_Colors.csv")
 names(colortable$Order_colour)<-colortable$Order
 #names(colortable$order_color3) <- colortable$Order
 
@@ -81,13 +81,13 @@ shapevector <- as.vector(shapevector)
 # Landmark-free data - Aligned_Only
 
 # Kernel 40.0 (Control points = 45 )
-Kernel_40.0 <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Landmark Aligned/Kernel 40.0/kpca.csv")
+Kernel_40.0 <- read.csv("path/to/input/Data_S5-Aligned_Only_k40_kpca.csv")
 
 # Kernel 20.0 (Control points = 270 )
-Kernel_20.0 <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Landmark Aligned/Kernel 20.0/kpca.csv")
+Kernel_20.0 <- read.csv("path/to/input/Data_S6-Aligned_Only_k20_kpca.csv")
 
 # Kernel 10.0 (Control points = 1782 )
-Kernel_10.0 <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Landmark Aligned/Kernel 10.0/kpca.csv")
+Kernel_10.0 <- read.csv("path/to/input/Data_S7-Aligned_Only_k10_kpca.csv")
 
 #########################################################################################
 
@@ -275,13 +275,13 @@ print(PLS3)
 # Landmark-free data - Poisson Meshes 
 
 # Kernel 40.0 (Control points = 45 )
-Kernel_40.0_P <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Poisson Meshes/Kernel 40.0/kpca.csv")
+Kernel_40.0_P <- read.csv("path/to/input/Data_S8-Possion_k40_kpca.csv")
 
 # Kernel 20.0 (Control points = 270 )
-Kernel_20.0_P <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Poisson Meshes/Kernel 20.0/kpca.csv")
+Kernel_20.0_P <- read.csv("path/to/input/Data_S9-Poisson_k20_kpca.csv")
 
 # Kernel 10.0 (Control points = 1782 )
-Kernel_10.0_P <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Poisson Meshes/Kernel 10.0/kpca.csv")
+Kernel_10.0_P <- read.csv("path/to/input/Data_S10-Poisson_k10_kpca.csv")
 
 #########################################################################################
 
