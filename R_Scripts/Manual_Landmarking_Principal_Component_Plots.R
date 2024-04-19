@@ -25,10 +25,10 @@ library(geomorph)
 # Read in shape data & species data 
 
 # Shape data (Landmark Data)
-shape.data <- read.csv("path/to/input//shape.data.322.csv")
+shape.data <- read.csv("path/to/input/Data_S3-Shape_Data_322.csv")
 
 # Species data (Details of Taxonomy etc.)
-species.data <- read.csv("path/to/input/full_species_data.csv")
+species.data <- read.csv("path/to/input/Data_S1-Specimen_Details.csv")
 
 #########################################################################################
 
@@ -46,7 +46,7 @@ pcscores<-PCA1$x
 pcscores<-cbind(species.data,pcscores) 
 
 # Assign colours 
-colortable <- read.csv("path/to/input/new_order_colors2.csv")
+colortable <- read.csv("path/to/input/Data_S17-New_Order_Colors.csv")
 names(colortable$Order_colour)<-colortable$Order
 #names(colortable$order_color3) <- colortable$Order
 
@@ -99,7 +99,7 @@ g1
 # Save the Plot g1
 
 # Specify the file path including the desired directory and filename
-g1_file_path <- "E:\\CTData\\James Mulqueeney\\Papers\\Write Up Papers\\Paper 2- Comparison of Methods\\Figures\\Manual Landmarking\\Manual_Landmarking_PC1-2_Legend.png"
+g1_file_path <- "path\\to\\output\\filename.png"
 
 # Use ggsave to save the plot to the specified file path
 ggsave(g1_file_path, plot = g1, device = "png", width = 10, height = 6, units = "in", dpi = 600)
@@ -139,7 +139,7 @@ g2
 # Save the Plot g2
 
 # Specify the file path including the desired directory and filename
-g2_file_path <- "E:\\CTData\\James Mulqueeney\\Papers\\Write Up Papers\\Paper 2- Comparison of Methods\\Figures\\Manual Landmarking\\Manual_Landmarking_PC1-2.png"
+g2_file_path <- "path\\to\\output\\filename.png"
 
 # Use ggsave to save the plot to the specified file path
 ggsave(g2_file_path, plot = g2, device = "png", width = 10, height = 6, units = "in", dpi = 600)
@@ -176,7 +176,7 @@ g3
 # Save the Plot g3
 
 # Specify the file path including the desired directory and filename
-g3_file_path <- "E:\\CTData\\James Mulqueeney\\Papers\\Write Up Papers\\Paper 2- Comparison of Methods\\Figures\\Manual Landmarking\\Manual_Landmarking_PC3-4.png"
+g3_file_path <- "path\\to\\output\\filename.png"
 
 # Use ggsave to save the plot to the specified file path
 ggsave(g3_file_path, plot = g3, device = "png", width = 10, height = 6, units = "in", dpi = 600)
