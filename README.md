@@ -21,6 +21,7 @@ All data stored here is used in the results section of the paper. These data can
 14. `Data_S14-Poisson_k40_eigenvalues.csv`: Eigenvalues generated for the kernel principal coordinate analysis for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 40.0mm (45 control points).
 15. `Data_S15-Poisson_k20_eigenvalues.csv`: Eigenvalues generated for the kernel principal coordinate analysis for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 20.0mm (270 control points).
 16. `Data_S16-Poisson_k10_eigenvalues.csv`: Eigenvalues generated for the kernel principal coordinate analysis for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 10.0mm (1782 control points).
+17. `Data_S17-New_Order_Colors.csv`: Colours for PCA plots. 
 
 # R Scripts 
 All the R scripts here are used for data processing, visualisation and statistical analysis of the data. These are as follows: 
