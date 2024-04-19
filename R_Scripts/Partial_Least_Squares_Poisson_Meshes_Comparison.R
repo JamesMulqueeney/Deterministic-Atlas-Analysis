@@ -30,10 +30,10 @@ library(geomorph)
 # Manual landmarking data 
 
 # Shape data (Landmark Data)
-shape.data <- read.csv("path/to/input/shape.data.322.csv")
+shape.data <- read.csv("path/to/input/Data_S3-Shape_Data_322.csv")
 
 # Species data (Details of Taxonomy etc.)
-species.data <- read.csv("path/to/input/full_species_data.csv")
+species.data <- read.csv("path/to/input/Data_S1-Specimen_Details.csv")
 
 # Perform PCA on shape data 
 PCA1 <- gm.prcomp(shape.data[,-1])
@@ -53,13 +53,13 @@ pcscores<-cbind(species.data,pcscores)
 # Landmark-free data 
 
 # Kernel 40.0 (Control points = 45 )
-Kernel_40.0 <- read.csv("path/to/input/Poisson Meshes/Kernel 40.0/kpca.csv")
+Kernel_40.0 <- read.csv("path/to/input/Data_S8-Possion_k40_kpca.csv")
 
 # Kernel 20.0 (Control points = 270 )
-Kernel_20.0 <- read.csv("path/to/input/Poisson Meshes/Kernel 20.0/kpca.csv")
+Kernel_20.0 <- read.csv("path/to/input/Data_S9-Poisson_k20_kpca.csv")
 
 # Kernel 10.0 (Control points = 1782 )
-Kernel_10.0 <- read.csv("path/to/input/Poisson Meshes/Kernel 10.0/kpca.csv")
+Kernel_10.0 <- read.csv("path/to/input/Data_S10-Poisson_k10_kpca.csv")
 
 #########################################################################################
 
