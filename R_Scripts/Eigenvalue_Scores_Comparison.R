@@ -19,8 +19,8 @@ library(geomorph)
 #########################################################################################
 
 # Read shape data & species data 
-shape.data <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Manual Landmarking/Data/shape.data.322.csv")
-species.data <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Manual Landmarking/Data/full_species_data.csv")
+shape.data <- read.csv("path/to/input/Data_S3-Shape_Data_322.csv")
+species.data <- read.csv("path/to/input/Data_S1-Specimen_Details.csv")
 
 # Perform PCA on shape data 
 PCA1 <- gm.prcomp(shape.data[,-1])
@@ -37,7 +37,7 @@ eigenvalues <- as.numeric(t(PCAsummary$PC.summary[2,]) * 100)
 # Aligned meshes 
 
 # Read Kernel 40.0 eigenvalues data 
-Kernel_40.0_eig_a <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Landmark Aligned/Kernel 40.0/eigenvalues.csv")
+Kernel_40.0_eig_a <- read.csv("path/to/input/Data_S11-Aligned_Only_k40_eigenvalues.csv")
 
 # Initialize empty vector for eigenvalues2
 eigenvalues2 <- as.numeric(nrow(Kernel_40.0_eig_a))
@@ -57,7 +57,7 @@ print(eigenvalues2)
 #########################################################################################
 
 # Read Kernel 20.0 eigenvalues data 
-Kernel_20.0_eig_a <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Landmark Aligned/Kernel 20.0/eigenvalues.csv")
+Kernel_20.0_eig_a <- read.csv("path/to/input/Data_S12-Aligned_Only_k20_eigenvalues.csv")
 
 # Initialize empty vector for eigenvalues3
 eigenvalues3 <- as.numeric(nrow(Kernel_20.0_eig_a))
@@ -77,7 +77,7 @@ print(eigenvalues3)
 #########################################################################################
 
 # Read Kernel 10.0 eigenvalues data 
-Kernel_10.0_eig_a <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Landmark Aligned/Kernel 10.0/eigenvalues.csv")
+Kernel_10.0_eig_a <- read.csv("path/to/input/Data_S13-Aligned_Only_k10_eigenvalues.csv")
 
 # Initialize empty vector for eigenvalues4
 eigenvalues4 <- as.numeric(nrow(Kernel_10.0_eig_a))
@@ -99,7 +99,7 @@ print(eigenvalues4)
 # Poisson meshes 
 
 # Read Kernel 40.0 eigenvalues data 
-Kernel_40.0_eig <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Poisson Meshes/Kernel 40.0/eigenvalues.csv")
+Kernel_40.0_eig <- read.csv("path/to/input/Data_S14-Poisson_k40_eigenvalues.csvData_S14-Poisson_k40_eigenvalues.csv")
 
 # Initialize empty vector for eigenvalues2
 eigenvalues5 <- as.numeric(nrow(Kernel_40.0_eig))
@@ -119,7 +119,7 @@ print(eigenvalues5)
 #########################################################################################
 
 # Read Kernel 20.0 eigenvalues data 
-Kernel_20.0_eig <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Poisson Meshes/Kernel 20.0/eigenvalues.csv")
+Kernel_20.0_eig <- read.csv("path/to/input/Data_S15-Poisson_k20_eigenvalues.csv")
 
 # Initialize empty vector for eigenvalues3
 eigenvalues6 <- as.numeric(nrow(Kernel_20.0_eig))
@@ -139,7 +139,7 @@ print(eigenvalues6)
 #########################################################################################
 
 # Read Kernel 10.0 eigenvalues data 
-Kernel_10.0_eig <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Poisson Meshes/Kernel 10.0/eigenvalues.csv")
+Kernel_10.0_eig <- read.csv("path/to/input/Data_S16-Poisson_k10_eigenvalues.csv")
 
 # Initialize empty vector for eigenvalues4
 eigenvalues7 <- as.numeric(nrow(Kernel_10.0_eig))
