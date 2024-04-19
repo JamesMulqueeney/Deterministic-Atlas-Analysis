@@ -25,10 +25,10 @@ library(geomorph)
 # Read in shape data & species data 
 
 # Shape data (Landmark Data)
-shape.data <- read.csv("path/to/input/shape.data.322.csv")
+shape.data <- read.csv("path/to/input/Data_S3-Shape_Data_322.csv")
 
 # Species data (Details of Taxonomy etc.)
-species.data <- read.csv("path/to/input/full_species_data.csv")
+species.data <- read.csv("path/to/input/Data_S1-Specimen_Details.csv")
 
 #########################################################################################
 
@@ -46,7 +46,7 @@ pcscores<-PCA1$x
 pcscores<-cbind(species.data,pcscores) 
 
 # Assign colours 
-colortable <- read.csv("E:/CTData/James Mulqueeney/Mammalian Data/Full Results/Coding Files/new_order_colors2.csv")
+colortable <- read.csv("path/to/input/Data_S18-Partial_Least_Sqaures.csv")
 names(colortable$Order_colour)<-colortable$Order
 #names(colortable$order_color3) <- colortable$Order
 
@@ -96,7 +96,7 @@ g1
 # Save the Plot g1
 
 # Specify the file path including the desired directory and filename
-g1_file_path <- "E:\\CTData\\James Mulqueeney\\Papers\\Write Up Papers\\Paper 2- Comparison of Methods\\Figures\\Manual Landmarking\\Manual_Landmarking_PC1-2.png"
+g1_file_path <- "path\\to\\output\\filename.png"
 
 # Use ggsave to save the plot to the specified file path
 ggsave(g1_file_path, plot = g1, device = "png", width = 10, height = 6, units = "in", dpi = 600)
@@ -130,7 +130,7 @@ g2
 # Save the Plot g2
 
 # Specify the file path including the desired directory and filename
-g2_file_path <- "E:\\CTData\\James Mulqueeney\\Papers\\Write Up Papers\\Paper 2- Comparison of Methods\\Figures\\Manual Landmarking\\Manual_Landmarking_PC3-4.png"
+g2_file_path <- "path\\to\\output\\filename.png"
 
 # Use ggsave to save the plot to the specified file path
 ggsave(g2_file_path, plot = g2, device = "png", width = 10, height = 6, units = "in", dpi = 600)
@@ -148,7 +148,7 @@ ggsave(g2_file_path, plot = g2, device = "png", width = 10, height = 6, units = 
 #######################################
 
 # Read in the data 
-Kernel_40.0 <- read.csv("path/to/input//Poisson Meshes/Kernel 40.0/kpca.csv")
+Kernel_40.0 <- read.csv("path/to/input/Data_S5-Aligned_Only_k40_kpca.csv")
 
 ############
 # PC1 & PC2
@@ -179,7 +179,7 @@ g3
 # Save the Plot g3
 
 # Specify the file path including the desired directory and filename
-g3_file_path <- "E:\\CTData\\James Mulqueeney\\Papers\\Write Up Papers\\Paper 2- Comparison of Methods\\Figures\\Deterministic Atlas Analysis\\Kernel 40.0\\Poisson Meshes\\Kernel_40.0_PC1-2.png"
+g3_file_path <- "path\\to\\output\\filename.png"
 
 # Use ggsave to save the plot to the specified file path
 ggsave(g3_file_path, plot = g3, device = "png", width = 10, height = 6, units = "in", dpi = 600)
@@ -213,7 +213,7 @@ g4
 # Save the Plot g4
 
 # Specify the file path including the desired directory and filename
-g4_file_path <- "E:\\CTData\\James Mulqueeney\\Papers\\Write Up Papers\\Paper 2- Comparison of Methods\\Figures\\Deterministic Atlas Analysis\\Kernel 40.0\\Poisson Meshes\\Kernel_40.0_PC3-4.png"
+g4_file_path <- "path\\to\\output\\filename.png"
 
 # Use ggsave to save the plot to the specified file path
 ggsave(g4_file_path, plot = g4, device = "png", width = 10, height = 6, units = "in", dpi = 600)
@@ -225,7 +225,7 @@ ggsave(g4_file_path, plot = g4, device = "png", width = 10, height = 6, units = 
 #######################################
 
 # Read in the data 
-Kernel_20.0 <- read.csv("path/to/input/Poisson Meshes/Kernel 20.0/kpca.csv")
+Kernel_20.0 <- read.csv("path/to/input/Data_S6-Aligned_Only_k20_kpca.csv")
 
 ############
 # PC1 & PC2
@@ -256,7 +256,7 @@ g5
 # Save the Plot g5
 
 # Specify the file path including the desired directory and filename
-g5_file_path <- "E:\\CTData\\James Mulqueeney\\Papers\\Write Up Papers\\Paper 2- Comparison of Methods\\Figures\\Deterministic Atlas Analysis\\Kernel 20.0\\Poisson Meshes\\Kernel_20.0_PC1-2.png"
+g5_file_path <- "path\\to\\output\\filename.png"
 
 # Use ggsave to save the plot to the specified file path
 ggsave(g5_file_path, plot = g5, device = "png", width = 10, height = 6, units = "in", dpi = 600)
@@ -290,7 +290,7 @@ g6
 # Save the Plot g6
 
 # Specify the file path including the desired directory and filename
-g6_file_path <- "E:\\CTData\\James Mulqueeney\\Papers\\Write Up Papers\\Paper 2- Comparison of Methods\\Figures\\Deterministic Atlas Analysis\\Kernel 20.0\\Poisson Meshes\\Kernel_20.0_PC3-4.png"
+g6_file_path <- "path\\to\\output\\filename.png"
 
 # Use ggsave to save the plot to the specified file path
 ggsave(g6_file_path, plot = g6, device = "png", width = 10, height = 6, units = "in", dpi = 600)
@@ -302,7 +302,7 @@ ggsave(g6_file_path, plot = g6, device = "png", width = 10, height = 6, units = 
 #######################################
 
 # Read in the data 
-Kernel_10.0 <- read.csv("path/to/input/Poisson Meshes/Kernel 10.0/kpca.csv")
+Kernel_10.0 <- read.csv("path/to/input/Data_S7-Aligned_Only_k10_kpca.csv")
 
 ############
 # PC1 & PC2
@@ -333,7 +333,7 @@ g7
 # Save the Plot g7
 
 # Specify the file path including the desired directory and filename
-g7_file_path <- "E:\\CTData\\James Mulqueeney\\Papers\\Write Up Papers\\Paper 2- Comparison of Methods\\Figures\\Deterministic Atlas Analysis\\Kernel 10.0\\Poisson Meshes\\Kernel_10.0_PC1-2.png"
+g7_file_path <- "path\\to\\output\\filename.png"
 
 # Use ggsave to save the plot to the specified file path
 ggsave(g7_file_path, plot = g7, device = "png", width = 10, height = 6, units = "in", dpi = 600)
@@ -367,7 +367,7 @@ g8
 # Save the Plot g8
 
 # Specify the file path including the desired directory and filename
-g8_file_path <- "E:\\CTData\\James Mulqueeney\\Papers\\Write Up Papers\\Paper 2- Comparison of Methods\\Figures\\Deterministic Atlas Analysis\\Kernel 10.0\\Poisson Meshes\\Kernel_10.0_PC3-4.png"
+g8_file_path <- "path\\to\\output\\filename.png"
 
 # Use ggsave to save the plot to the specified file path
 ggsave(g8_file_path, plot = g8, device = "png", width = 10, height = 6, units = "in", dpi = 600)
@@ -394,7 +394,7 @@ g9
 # Save the Plot g9
 
 # Specify the file path including the desired directory and filename
-g9_file_path <- "E:\\CTData\\James Mulqueeney\\Papers\\Write Up Papers\\Paper 2- Comparison of Methods\\Figures\\Combined PC Plots\\Poisson Meshes\\Combined_PC1_PC2.png"
+g9_file_path <- "path\\to\\output\\filename.png"
 
 # Use ggsave to save the plot to the specified file path
 ggsave(g9_file_path, plot = g9, device = "png", width = 10, height = 6, units = "in", dpi = 600)
@@ -415,7 +415,7 @@ g10
 # Save the Plot g10
 
 # Specify the file path including the desired directory and filename
-g10_file_path <- "E:\\CTData\\James Mulqueeney\\Papers\\Write Up Papers\\Paper 2- Comparison of Methods\\Figures\\Combined PC Plots\\Poisson Meshes\\Combined_PC3_PC4.png"
+g10_file_path <- "path\\to\\output\\filename.png"
 
 # Use ggsave to save the plot to the specified file path
 ggsave(g10_file_path, plot = g10, device = "png", width = 10, height = 6, units = "in", dpi = 600)
