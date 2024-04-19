@@ -22,12 +22,12 @@ library(cowplot)
 # Read in shape data & species data 
 
 # Read in species data
-Species.Data<-read.csv("path/to/input/full_species_data.csv")
+Species.Data<-read.csv("path/to/input/Data_S1-Specimen_Details.csv")
 
 # Manual landmarking results
 
 # Read in shape data 
-manual.shape.data<-read.csv("path/to/input/shape.data.322.csv")
+manual.shape.data<-read.csv("path/to/input/Data_S3-Shape_Data_322.csv")
 
 # Perform PCA
 PCA1<-prcomp(manual.shape.data[,-1])
