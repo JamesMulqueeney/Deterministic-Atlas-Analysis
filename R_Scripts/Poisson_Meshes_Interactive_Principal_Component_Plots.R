@@ -20,7 +20,7 @@ library(geomorph)
 #########################################################################################
 
 # Read in colour/ shape of plot data
-colortable <- read.csv("path/to/input/new_order_colors2.csv")
+colortable <- read.csv("path/to/input/Data_S17-New_Order_Colors.csv")
 names(colortable$Order_colour)<-colortable$Order
 
 # Re-order the Orders (Needs working on)
@@ -31,7 +31,7 @@ phyloseq <- c("Zalambdalestidae", "Cimolesta", "Leptictida", "Cingulata", "Pilos
 #######################################
 
 # Read in the data 
-Kernel_40.0 <- read.csv("path/to/input/Poisson Meshes/Kernel 40.0/kpca.csv")
+Kernel_40.0 <- read.csv("path/to/input/Data_S8-Possion_k40_kpca.csv")
 
 # Plot in 2D 
 
@@ -75,7 +75,7 @@ plot3
 #######################################
 
 # Read in the data 
-Kernel_20.0 <- read.csv("path/to/input/Poisson Meshes/Kernel 20.0/kpca.csv")
+Kernel_20.0 <- read.csv("path/to/input/Data_S9-Poisson_k20_kpca.csv")
 
 # Plot in 2D 
 
@@ -119,7 +119,7 @@ plot6
 #######################################
 
 # Read in the data 
-Kernel_10.0 <- read.csv("path/to/input/Poisson Meshes/Kernel 10.0/kpca.csv")
+Kernel_10.0 <- read.csv("Data_S10-Poisson_k10_kpca.csv")
 
 # Plot in 2D 
 
