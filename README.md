@@ -27,16 +27,19 @@ All the R scripts here are used for data processing, visualisation and statistic
 
 1.  `Aligned_Only_Interactive_Principal_Component_Plots.R`: Used to make interactive PC plots for Aligned-only data. 
 2.  `Aligned_Only_Principal_Component_Comparison.R`: Used to make ggplot PC plots for Aligned-only data.
-3.  `Batch_Mesh_Alignment.R`: Used to batch align the meshes. 
-4.  `Landmark_Free_Heatmaps.R`: Used to create heatmaps for landmark-free data. 
-5.  `Manual_Landmarking_Heatmaps.R`: Used to create heatmaps for landmark data. 
-6.  `Manual_Landmarking_Interactive_Principal_Component_Plots.R`: Used to make interactive PC plots for manual landmarking data. 
-7.  `Manual_Landmarking_Principal_Component_Plots.R`: Used to make ggplot PC plots for manual landmarking data. 
-8.  `Partial_Least_Squares_Aligned_Only_Comparison.R`: Used to perform PLS on Aligned-only data. 
-9.  `Partial_Least_Squares_Poisson_Meshes_Comparison.R`: Used to perform PLS on the Poisson Mesh data. 
-10. `Poisson_Mesh_Principal_Component_Comparison.R`: Used to make ggplot PC plots for Poisson Mesh data. 
-11. `Poisson_Meshes_Interactive_Principal_Component_Plots.R`: Used to make interactive PC plots for Poisson mesh data. 
-12. `Single_Mesh_Alignment.R`: Used to align one mesh to another (single). 
+3.  `Batch_Mesh_Alignment.R`: Used to batch align the meshes.
+4.  `Eigenvalue_Scores_Comparison.R`: Used to compare the eigenvalues across all of the analyses. 
+5.  `Landmark_Free_Heatmaps.R`: Used to create heatmaps for landmark-free data. 
+6.  `Manual_Landmarking_Heatmaps.R`: Used to create heatmaps for landmark data. 
+7.  `Manual_Landmarking_Interactive_Principal_Component_Plots.R`: Used to make interactive PC plots for manual landmarking data. 
+8.  `Manual_Landmarking_Principal_Component_Plots.R`: Used to make ggplot PC plots for manual landmarking data. 
+9.  `Partial_Least_Squares_Aligned_Only_Comparison.R`: Used to perform PLS on Aligned-only data.
+10.  `Partial_Least_Squares_All_Comparison.R`: Used to perform PLS on all of the analyses. 
+11.  `Partial_Least_Squares_Poisson_Meshes_Comparison.R`: Used to perform PLS on the Poisson Mesh data.
+12.  `Poisson_Aligned-Only_Statistical_Comparison.R` : Used to statistically compare the aligned-only and Poisson mesh data. 
+13. `Poisson_Mesh_Principal_Component_Comparison.R`: Used to make ggplot PC plots for Poisson Mesh data. 
+14. `Poisson_Meshes_Interactive_Principal_Component_Plots.R`: Used to make interactive PC plots for Poisson mesh data. 
+15. `Single_Mesh_Alignment.R`: Used to align one mesh to another (single). 
 
 # Python Scripts 
 Python scripts are used in the analysis, mainly in the processing and generating of data. These are as follows: 
