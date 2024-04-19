@@ -46,7 +46,7 @@ Python scripts are used in the analysis, mainly in the processing and generating
 
 1. `Batch_Mesh_to_ASCII.py`: Used to batch convert binary .ply meshes into ASCII format. 
 2. `Display_Control_Points_Final.py`: Used to display control points on the atlas. 
-3. `Landmark-Free_Analysis_Mammals.py`: Used to perform shape statistics (kPCA) 
+3. `Landmark-Free_Analysis_Mammals.py`: Used to perform shape statistics (kPCA). 
 4. `Mammal_Dataset_XML_Generation.py`: Used to generate the data_set.xml file used in the Deterministic Atlas Analysis. 
 5. `Mesh_Decimation_Smoothing.py`: Used to decimate & smooth .ply meshes. 
 6. `New_Folder_Batch_Ply_to_VTK_Convert.py`: Used to batch convert .ply meshes to .vtk format for use in Deterministic Atlas Analysis.
