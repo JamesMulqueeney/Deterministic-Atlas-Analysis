@@ -21,9 +21,9 @@ library(Rvcg)
 data <- read.csv("path/to/input/Mirrored.322.csv", header = TRUE)
 
 # Read in mesh data 
-mesh1 <- read.ply("E:/CTData/James Mulqueeney/Mammalian Data/Placental Mammalian Data/Original Files/ASCII Mesh Files/Acinonyx_jubatus.ply",  ShowSpecimen= FALSE)
-mesh2 <- read.ply("E:/CTData/James Mulqueeney/Mammalian Data/Placental Mammalian Data/Original Files/ASCII Mesh Files/Acratocnus_odontrigonus.ply",  ShowSpecimen= FALSE)
-mesh3 <- read.ply("E:/CTData/James Mulqueeney/Mammalian Data/Placental Mammalian Data/Original Files/ASCII Mesh Files/Adapis_magnus.ply",  ShowSpecimen= FALSE)
+mesh1 <- read.ply("path/to/input/ASCII Mesh Files/Acinonyx_jubatus.ply",  ShowSpecimen= FALSE)
+mesh2 <- read.ply("path/to/input/Acratocnus_odontrigonus.ply",  ShowSpecimen= FALSE)
+mesh3 <- read.ply("path/to/input/Adapis_magnus.ply",  ShowSpecimen= FALSE)
 
 
 # Extract x,y,z co-ordinates in 3D
