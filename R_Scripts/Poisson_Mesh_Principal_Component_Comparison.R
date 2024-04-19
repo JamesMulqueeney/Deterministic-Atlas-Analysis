@@ -148,7 +148,7 @@ ggsave(g2_file_path, plot = g2, device = "png", width = 10, height = 6, units = 
 #######################################
 
 # Read in the data 
-Kernel_40.0 <- read.csv("path/to/input/Data_S5-Aligned_Only_k40_kpca.csv")
+Kernel_40.0 <- read.csv("path/to/input/Data_S8-Possion_k40_kpca.csv")
 
 ############
 # PC1 & PC2
@@ -225,7 +225,7 @@ ggsave(g4_file_path, plot = g4, device = "png", width = 10, height = 6, units = 
 #######################################
 
 # Read in the data 
-Kernel_20.0 <- read.csv("path/to/input/Data_S6-Aligned_Only_k20_kpca.csv")
+Kernel_20.0 <- read.csv("path/to/input/Data_S9-Poisson_k20_kpca.csv")
 
 ############
 # PC1 & PC2
@@ -302,7 +302,7 @@ ggsave(g6_file_path, plot = g6, device = "png", width = 10, height = 6, units = 
 #######################################
 
 # Read in the data 
-Kernel_10.0 <- read.csv("path/to/input/Data_S7-Aligned_Only_k10_kpca.csv")
+Kernel_10.0 <- read.csv("path/to/input/Data_S10-Poisson_k10_kpca.csv")
 
 ############
 # PC1 & PC2
