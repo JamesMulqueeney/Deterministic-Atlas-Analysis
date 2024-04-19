@@ -13,7 +13,7 @@ library(car)
 # ANOVA Test 
 
 # Read in PLS Results 
-df<- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 2- Comparison of Methods/Data/Results/Partial_Least_Squares.csv")
+df<- read.csv("path/to/input/Data_S18-Partial_Least_Sqaures.csv")
 
 # Rename columns to remove spaces
 colnames(df) <- c("Mesh_Type", "Control_Points_45", "Control_Points_270", "Control_Points_1782")
