@@ -36,7 +36,7 @@ All the R scripts here are used for data processing, visualisation and statistic
 9.  `Partial_Least_Squares_Aligned_Only_Comparison.R`: Used to perform PLS on Aligned-only data.
 10.  `Partial_Least_Squares_All_Comparison.R`: Used to perform PLS on all of the analyses. 
 11.  `Partial_Least_Squares_Poisson_Meshes_Comparison.R`: Used to perform PLS on the Poisson Mesh data.
-12.  `Poisson_Aligned-Only_Statistical_Comparison.R` : Used to statistically compare the aligned-only and Poisson mesh data. 
+12.  `Poisson_Aligned-Only_Statistical_Comparison.R`: Used to compare the aligned-only and Poisson mesh data statistically. 
 13. `Poisson_Mesh_Principal_Component_Comparison.R`: Used to make ggplot PC plots for Poisson Mesh data. 
 14. `Poisson_Meshes_Interactive_Principal_Component_Plots.R`: Used to make interactive PC plots for Poisson mesh data. 
 15. `Single_Mesh_Alignment.R`: Used to align one mesh to another (single). 
@@ -45,9 +45,9 @@ All the R scripts here are used for data processing, visualisation and statistic
 Python scripts are used in the analysis, mainly in the processing and generating of data. These are as follows: 
 
 1. `Batch_Mesh_to_ASCII.py`: Used to batch convert binary .ply meshes into ASCII format. 
-2. `Display_Control_Points_Final.py`: Used to display control points on atlas 
+2. `Display_Control_Points_Final.py`: Used to display control points on the atlas. 
 3. `Landmark-Free_Analysis_Mammals.py`: Used to perform shape statistics (kPCA) 
 4. `Mammal_Dataset_XML_Generation.py`: Used to generate the data_set.xml file used in the Deterministic Atlas Analysis. 
 5. `Mesh_Decimation_Smoothing.py`: Used to decimate & smooth .ply meshes. 
 6. `New_Folder_Batch_Ply_to_VTK_Convert.py`: Used to batch convert .ply meshes to .vtk format for use in Deterministic Atlas Analysis.
-7. `Variable_Batch_Mesh_to_Label_File_Convertor_final.py` : Used to voxelise mesh 
+7. `Variable_Batch_Mesh_to_Label_File_Convertor_final.py` : Used to voxelise mesh. 
