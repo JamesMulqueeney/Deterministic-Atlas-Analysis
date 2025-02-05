@@ -29,7 +29,7 @@ for filename in os.listdir(input_dir):
         # Smooth the mesh
         smoothed_mesh = trimesh.smoothing.filter_laplacian(mesh, lamb=0.5, iterations=10) 
         # Decimate the mesh
-        decimated_mesh = mesh.simplify_quadratic_decimation(50000)
+        decimated_mesh = smoothed_mesh.simplify_quadratic_decimation(50000)
         # Define output file path
         output_filepath = os.path.join(output_dir, os.path.splitext(filename)[0] + '.ply')
         # Save the processed mesh
