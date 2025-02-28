@@ -50,7 +50,7 @@ All the R scripts here are used for data processing, visualisation and statistic
 14.  `Landmark_Scheme_Visualisation.R`: Used visualise the landmark scheme.
 15.  `Macroevo_Analyses.R`: Used to compute phylogenetic signal, disparity and evolutionary rates.
 16.  `Macroevo_Analyses_Momentas.R`: Used to compute phylogenetic signal, disparity and evolutionary rates but using Momentas.
-17.  `Mantel_Test.R: Used to perform Mantel test comparisons between methods.
+17.  `Mantel_Test.R`: Used to perform Mantel test comparisons between methods.
 19.  `Manual_Landmarking_Heatmaps.R`: Used to create heatmaps for landmark data. 
 20.  `Manual_Landmarking_Interactive_Principal_Component_Plots.R`: Used to make interactive PC plots for manual landmarking data. 
 21.  `Manual_Landmarking_Principal_Component_Plots.R`: Used to make ggplot PC plots for manual landmarking data. 
