@@ -14,7 +14,7 @@ All data stored here is used in the results section of the paper. These data can
 7. `Data_A7-Poisson_k40_kpca.csv`: Kernel principal coordinates for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 40.0mm (45 control points).
 8. `Data_A8-Poisson_k20_kpca.csv`: Kernel principal coordinates for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 20.0mm (270 control points).
 9. `Data_A9-Poisson_k10_kpca.csv`: Kernel principal coordinates for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 10.0mm (1782 control points).
-10.`Data_A10-Order_Euclidean_Distance_Correlations.csv`: Correlation measures of Euclidean distance values within each major order (>10 specimens) across both the Aligned-only and Poisson mesh analyses.
+10. `Data_A10-Order_Euclidean_Distance_Correlations.csv`: Correlation measures of Euclidean distance values within each major order (>10 specimens) across both the Aligned-only and Poisson mesh analyses.
 11. `Data_A11-PCA_Shape_Data_322.csv`: Principal coordinates for shape data for the manual landmarking approach.
 12. `Data_A12-Aligned_Only_k40_eigenvalues.csv`: Eigenvalues generated for the kernel principal coordinate analysis for deterministic atlas analysis measured using the aligned-only data using a kernel width of 40.0mm (45 control points).
 13. `Data_A13-Aligned_Only_k20_eigenvalues.csv`: Eigenvalues generated for the kernel principal coordinate analysis for deterministic atlas analysis measured using the aligned-only data using a kernel width of 20.0mm (270 control points).
