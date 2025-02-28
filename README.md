@@ -36,27 +36,42 @@ All the R scripts here are used for data processing, visualisation and statistic
 
 1.  `Aligned_Only_Interactive_Principal_Component_Plots.R`: Used to make interactive PC plots for Aligned-only data. 
 2.  `Aligned_Only_Principal_Component_Comparison.R`: Used to make ggplot PC plots for Aligned-only data.
-3.  `Batch_Mesh_Alignment.R`: Used to batch align the meshes.
-4.  `Eigenvalue_Scores_Comparison.R`: Used to compare the eigenvalues across all of the analyses. 
-5.  `Landmark_Free_Heatmaps.R`: Used to create heatmaps for landmark-free data. 
-6.  `Manual_Landmarking_Heatmaps.R`: Used to create heatmaps for landmark data. 
-7.  `Manual_Landmarking_Interactive_Principal_Component_Plots.R`: Used to make interactive PC plots for manual landmarking data. 
-8.  `Manual_Landmarking_Principal_Component_Plots.R`: Used to make ggplot PC plots for manual landmarking data. 
-9.  `Partial_Least_Squares_Aligned_Only_Comparison.R`: Used to perform PLS on Aligned-only data.
-10.  `Partial_Least_Squares_All_Comparison.R`: Used to perform PLS on all of the analyses. 
-11.  `Partial_Least_Squares_Poisson_Meshes_Comparison.R`: Used to perform PLS on the Poisson Mesh data.
-12.  `Poisson_Aligned-Only_Statistical_Comparison.R`: Used to compare the aligned-only and Poisson mesh data statistically. 
-13. `Poisson_Mesh_Principal_Component_Comparison.R`: Used to make ggplot PC plots for Poisson Mesh data. 
-14. `Poisson_Meshes_Interactive_Principal_Component_Plots.R`: Used to make interactive PC plots for Poisson mesh data. 
-15. `Single_Mesh_Alignment.R`: Used to align one mesh to another (single). 
+3.  `All_Correlation_Measure.R`: Used to compute all different correlations. Note: Need to rune Euclidean distances first.
+4.  `Alternative_Atlas__Principal_Component_Plots.R`: Used to make ggplot PC plots for different atlas results.
+5.  `Alternative_Atlas_Interactive_Principal_Component_Plots.R`: Used to make interactive PC plots for different atlas results. 
+6.  `Batch_Mesh_Alignment.R`: Used to batch align the meshes.
+7.  `Batch_Mesh_Decimation.R`: Used to batch decimate the meshes.
+8.  `Eigenvalue_Scores_Comparison.R`: Used to compare the eigenvalues across all of the analyses.
+9.  `Euclidean_Correlation_Within_Orders.R`: Used to compute statistics for within order correlations.
+10.  `Euclidean_Distance_Measures.R`: Used to compute Euclidean distances between specimens and Atlas and used to compare correlations between methods. 
+11.  `Landmark_Free_Heatmaps_k10.R`: Used to create heatmaps for landmark-free data (Kernel 10).
+12.  `Landmark_Free_Heatmaps_k20.R`: Used to create heatmaps for landmark-free data (Kernel 20).
+13.  `Landmark_Free_Heatmaps_k40.R`: Used to create heatmaps for landmark-free data (Kernel 40).
+14.  `Landmark_Scheme_Visualisation.R`: Used visualise the landmark scheme.
+15.  `Macroevo_Analyses.R`: Used to compute phylogenetic signal, disparity and evolutionary rates.
+16.  `Macroevo_Analyses_Momentas.R`: Used to compute phylogenetic signal, disparity and evolutionary rates but using Momentas.
+17.  `Mantel_Test.R: Used to perform Mantel test comparisons between methods.
+19.  `Manual_Landmarking_Heatmaps.R`: Used to create heatmaps for landmark data. 
+20.  `Manual_Landmarking_Interactive_Principal_Component_Plots.R`: Used to make interactive PC plots for manual landmarking data. 
+21.  `Manual_Landmarking_Principal_Component_Plots.R`: Used to make ggplot PC plots for manual landmarking data. 
+23.  `Partial_Least_Squares_All_Comparison.R`: Used to perform PLS on all of the analyses. 
+26. `Poisson_Mesh_Principal_Component_Comparison.R`: Used to make ggplot PC plots for Poisson Mesh data. 
+27. `Poisson_Meshes_Interactive_Principal_Component_Plots.R`: Used to make interactive PC plots for Poisson mesh data.
+28. `Protest_Distance_Measures.R`: Measure PROTEST correlation between matrices.
+29. `Rates_Disparity_Plots.R`: Used to visualise the rates and disparity results.
+30. `Scaled_Landmark_Centroid_Measure.R`: Used to measure centroid sizes. 
+31. `Single_Mesh_Alignment.R`: Used to align one mesh to another (single). 
 
 # Python Scripts 
 Python scripts are used in the analysis, mainly in the processing and generating of data. These are as follows: 
 
-1. `Batch_Mesh_to_ASCII.py`: Used to batch convert binary .ply meshes into ASCII format. 
-2. `Display_Control_Points_Final.py`: Used to display control points on the atlas. 
-3. `Landmark-Free_Analysis_Mammals.py`: Used to perform shape statistics (kPCA). 
-4. `Mammal_Dataset_XML_Generation.py`: Used to generate the data_set.xml file used in the Deterministic Atlas Analysis. 
-5. `Mesh_Decimation_Smoothing.py`: Used to decimate & smooth .ply meshes. 
-6. `New_Folder_Batch_Ply_to_VTK_Convert.py`: Used to batch convert .ply meshes to .vtk format for use in Deterministic Atlas Analysis.
-7. `Variable_Batch_Mesh_to_Label_File_Convertor_final.py` : Used to voxelise mesh. 
+1. `Batch_Mesh_Centroid_Measurement_v1.py`: Use to measure centroid size based on mesh vertices. 
+2. `Batch_Mesh_to_ASCII.py`: Used to batch convert binary .ply meshes into ASCII format. 
+3. `Display_Control_Points_Final.py`: Used to display control points on the atlas.
+4. `Display_Unmapped_Control_Points_Final.py`: Used to display unmapped control points on the atlas. 
+5. `Landmark-Free_Analysis_Mammals.py`: Used to perform shape statistics (kPCA). 
+6. `Mammal_Dataset_XML_Generation.py`: Used to generate the data_set.xml file used in the Deterministic Atlas Analysis. 
+7. `Mesh_Decimation_Smoothing.py`: Used to decimate & smooth .ply meshes. 
+8. `New_Folder_Batch_Ply_to_VTK_Convert.py`: Used to batch convert .ply meshes to .vtk format for use in Deterministic Atlas Analysis.
+9. `Variable_Batch_Mesh_to_Label_File_Convertor_final.py`: Used to voxelise mesh.
+10.`Write_Data_CSV`: Used to write the data.csv file. 
