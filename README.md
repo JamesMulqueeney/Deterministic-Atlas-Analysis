@@ -5,24 +5,31 @@ Code linked to the paper: Comparing landmark-free and manual landmarking methods
 # Data 
 All data stored here is used in the results section of the paper. These data can be analysed/ visualised using the R scripts within the 'R Scripts' Folder. kPCA and eigenvalues from all analyses are stored as followed:
 
-1. `Data_S1-Specimen_Details.csv`: Specimen details and species trait data.
-2. `Data_S2-Mirrored_322.csv`: Original landmark data for each species (mirrored for both sides of the cranium). These are used in the alignment of the meshes. 
-3. `Data_S3-Shape_Data_322.csv`: Base shape data for the manual landmarking approach (not placed into a principal coordinate analysis). 
-4. `Data_S4-PCA_Shape_Data_322.csv`:  Principal coordinates for shape data for the manual landmarking approach. 
-5. `Data_S5-Aligned_Only_k40_kpca.csv`: Kernel principal coordinates for deterministic atlas analysis measured using the aligned-only data using a kernel width of 40.0mm (45 control points).
-6. `Data_S6-Aligned_Only_k20_kpca.csv`: Kernel principal coordinates for deterministic atlas analysis measured using the aligned-only data using a kernel width of 20.0mm (270 control points).
-7. `Data_S7-Aligned_Only_k10_kpca.csv`: Kernel principal coordinates for deterministic atlas analysis measured using the aligned-only data using a kernel width of 10.0mm (1782 control points).
-8. `Data_S8-Possion_k40_kpca.csv`: Kernel principal coordinates for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 40.0mm (45 control points).
-9. `Data_S9-Poisson_k20_kpca.csv`: Kernel principal coordinates for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 20.0mm (270 control points).
-10. `Data_S10-Poisson_k10_kpca.csv`: Kernel principal coordinates for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 10.0mm (1782 control points).
-11. `Data_S11-Aligned_Only_k40_eigenvalues.csv`: Eigenvalues generated for the kernel principal coordinate analysis for deterministic atlas analysis measured using the aligned-only data using a kernel width of 40.0mm (45 control points).
-12. `Data_S12-Aligned_Only_k20_eigenvalues.csv`: Eigenvalues generated for the kernel principal coordinate analysis for deterministic atlas analysis measured using the aligned-only data using a kernel width of 20.0mm (270 control points).
-13. `Data_S13-Aligned_Only_k10_eigenvalues.csv`: Eigenvalues generated for the kernel principal coordinate analysis for deterministic atlas analysis measured using the aligned-only data using a kernel width of 10.0mm (1782 control points).
-14. `Data_S14-Poisson_k40_eigenvalues.csv`: Eigenvalues generated for the kernel principal coordinate analysis for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 40.0mm (45 control points).
-15. `Data_S15-Poisson_k20_eigenvalues.csv`: Eigenvalues generated for the kernel principal coordinate analysis for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 20.0mm (270 control points).
-16. `Data_S16-Poisson_k10_eigenvalues.csv`: Eigenvalues generated for the kernel principal coordinate analysis for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 10.0mm (1782 control points).
-17. `Data_S17-New_Order_Colors.csv`: Colours for PCA plots.
-18. `Data_S18-Partial_Least_Sqaures.csv`: Results from the PLS analyses. 
+1. `Data_A1_A_binturong_Atlas_Results.csv`: Kernel principal coordinates for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 20.0mm (270 control points) using an Arctictis binturong initial template.
+2. `Data_A2_C_calvus_Atlas_Results.csv`: Kernel principal coordinates for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 20.0mm (420 control points) using a Cacajao calvus initial template.
+3. `Data_A3_S_morckhoviensis_Atals_Results.csv`: Kernel principal coordinates for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 20.0mm (32 control points) using a Schizodelphis morckhoviensis initial template.
+4. `Data_A4-Aligned_Only_k40_kpca.csv`: Kernel principal coordinates for deterministic atlas analysis measured using the aligned-only data using a kernel width of 40.0mm (45 control points).
+5. `Data_A5-Aligned_Only_k20_kpca.csv`: Kernel principal coordinates for deterministic atlas analysis measured using the aligned-only data using a kernel width of 20.0mm (270 control points).
+6. `Data_A6-Aligned_Only_k10_kpca.csv`: Kernel principal coordinates for deterministic atlas analysis measured using the aligned-only data using a kernel width of 10.0mm (1782 control points).
+7. `Data_A7-Poisson_k40_kpca.csv`: Kernel principal coordinates for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 40.0mm (45 control points).
+8. `Data_A8-Poisson_k20_kpca.csv`: Kernel principal coordinates for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 20.0mm (270 control points).
+9. `Data_A9-Poisson_k10_kpca.csv`: Kernel principal coordinates for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 10.0mm (1782 control points).
+10.`Data_A10-Order_Euclidean_Distance_Correlations.csv`: Correlation measures of Euclidean distance values within each major order (>10 specimens) across both the Aligned-only and Poisson mesh analyses.
+11. `Data_A11-PCA_Shape_Data_322.csv`: Principal coordinates for shape data for the manual landmarking approach.
+12. `Data_A12-Aligned_Only_k40_eigenvalues.csv`: Eigenvalues generated for the kernel principal coordinate analysis for deterministic atlas analysis measured using the aligned-only data using a kernel width of 40.0mm (45 control points).
+13. `Data_A13-Aligned_Only_k20_eigenvalues.csv`: Eigenvalues generated for the kernel principal coordinate analysis for deterministic atlas analysis measured using the aligned-only data using a kernel width of 20.0mm (270 control points).
+14. `Data_A14-Aligned_Only_k10_eigenvalues.csv`: Eigenvalues generated for the kernel principal coordinate analysis for deterministic atlas analysis measured using the aligned-only data using a kernel width of 10.0mm (1782 control points).
+15. `Data_A15-Poisson_k40_eigenvalues.csv`: Eigenvalues generated for the kernel principal coordinate analysis for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 40.0mm (45 control points).
+16. `Data_A16-Poisson_k20_eigenvalues.csv`: Eigenvalues generated for the kernel principal coordinate analysis for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 20.0mm (270 control points).
+17. `Data_A17-Poisson_k10_eigenvalues`: Eigenvalues generated for the kernel principal coordinate analysis for deterministic atlas analysis measured using the Poisson mesh data using a kernel width of 10.0mm (1782 control points).
+18. `Data_A18-Diet_Disparity_Rates_v1.csv`: Estimated values of morphological disparity and evolutionary rates estimated for each different class of diet.
+19. `Data_A19-Locomotion_Disparity_Rates_v1.csv`: Estimated values of morphological disparity and evolutionary rates estimated for each different class of locomotion.
+20. `Data_A20-Specimen_Details.csv`: Specimen details and species trait data.
+21. `Data_A21-Shape_Data_322.csv`: Generalised Procrustes analysis (GPA) shape data for the manual landmarking approach (not placed into a principal coordinate analysis).
+22. `Data_A22-Mirrored_322.csv`: Original landmark data for each species (mirrored for both sides of the cranium). These are used in the alignment of the meshes.
+23. `Data_A23-New_Order_Colors.csv`: Colours used for each order in the plots.
+24. `Data_A24-Combined_Data_322.csv`: Combined data of both the specimen details and shape measurements.
+25. `trees90_95subset.tre`: Tree file used in macroevolutionary analyses. 
 
 # R Scripts 
 All the R scripts here are used for data processing, visualisation and statistical analysis of the data. These are as follows: 
