@@ -1,6 +1,6 @@
 # Deterministic-Atlas-Analysis
 
-Code linked to the paper: Assessing the application of landmark-free morphometrics to macroevolutionary analyses. DOI: 
+Code linked to the paper: Assessing the application of landmark-free morphometrics to macroevolutionary analyses. DOI: https://doi.org/10.1186/s12862-025-02377-9
 
 # Data 
 All data stored here is used in the results section of the paper. These data can be analysed/ visualised using the R scripts within the 'R Scripts' Folder. kPCA and eigenvalues from all analyses are stored as followed:
