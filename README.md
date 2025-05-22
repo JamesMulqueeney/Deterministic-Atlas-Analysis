@@ -74,4 +74,4 @@ Python scripts are used in the analysis, mainly in the processing and generating
 7. `Mesh_Decimation_Smoothing.py`: Used to decimate & smooth .ply meshes. 
 8. `New_Folder_Batch_Ply_to_VTK_Convert.py`: Used to batch convert .ply meshes to .vtk format for use in Deterministic Atlas Analysis.
 9. `Variable_Batch_Mesh_to_Label_File_Convertor_final.py`: Used to voxelise mesh.
-10.`Write_Data_CSV`: Used to write the data.csv file. 
+10. `Write_Data_CSV`: Used to write the data.csv file. 
