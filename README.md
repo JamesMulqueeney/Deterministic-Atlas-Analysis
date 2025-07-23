@@ -2,6 +2,8 @@
 
 Code linked to the paper: Assessing the application of landmark-free morphometrics to macroevolutionary analyses. DOI: https://doi.org/10.1186/s12862-025-02377-9
 
+If you use this code, please cite: Mulqueeney, J.M., Ezard, T.H. and Goswami, A., 2025. Assessing the application of landmark-free morphometrics to macroevolutionary analyses. BMC Ecology and Evolution, 25(1), p.38.
+
 # Data 
 All data stored here is used in the results section of the paper. These data can be analysed/ visualised using the R scripts within the 'R Scripts' Folder. kPCA and eigenvalues from all analyses are stored as followed:
 
